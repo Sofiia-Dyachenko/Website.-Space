@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПЛАНЕТИ - Світ Астрономії</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d1b2a;
+            color: #ffffff;
+        }
+        header {
+            text-align: center;
+            padding: 2em;
+            background-color: #1b263b;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #e0e1dd;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #415a77;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1em;
+        }
+        nav ul li a:hover {
+            background-color: #e0e1dd;
+            color: #1b263b;
+            border-radius: 5px;
+        }
+        main {
+            padding: 2em;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .planet-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 3em 0;
+            text-align: left;
+        }
+        .planet-section img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            color: #f9a826;
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        h3 {
+            color: #e0e1dd;
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #c9d6df;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #1b263b;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ПЛАНЕТИ</h1>
+        <p>Дізнайтеся більше про наші сусіди в Сонячній системі</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="planets.html">Планети</a></li>
+            <li><a href="galaxies.html">Галактики</a></li>
+            <li><a href="stars.html">Зорі</a></li>
+            <li><a href="quiz.html">Тест</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Що таке планети?</h2>
+        <p>Сонячна система складається з нашої зорі — Сонця, восьми планет та їхніх супутників, карликових планет, астероїдів, комет і різноманітних об'єктів, що обертаються навколо Сонця. 
+            Сонце є центром нашої системи і забезпечує тепло та світло, необхідні для життя на Землі. Планети — це великі небесні тіла, які обертаються навколо зір і мають достатню масу, щоб мати кулясту форму. Вони не випромінюють світла, а лише відбивають його від своєї зорі. Планети поділяються на дві групи: внутрішні планети (Меркурій, Венера, Земля, Марс) і зовнішні планети (Юпітер, Сатурн, Уран, Нептун). Кожна з планет має свої унікальні характеристики і супутники.</p>
+
+        <!-- Секція кожної планети -->
+        <div class="planet-section" id="mercury">
+            <div>
+                <h3>Меркурій</h3>
+                <p>Меркурій — найближча до Сонця планета і найменша в нашій Сонячній системі. Через відсутність густої атмосфери, температура вдень може сягати +430°C, а вночі опускатися до -180°C. Меркурій також обертається доволі повільно: один його день триває близько 59 земних днів. На поверхні Меркурія є численні кратери, що схожі на місячні, оскільки він майже не має атмосфери для захисту від метеоритів.</p>
+            </div>
+            <img src="mercury.jpg.png" alt="Зображення Меркурія">
+        </div>
+
+        <div class="planet-section" id="venus">
+            <div>
+                <h3>Венера</h3>
+                <p>Венера — друга планета від Сонця і найгарячіша через потужний парниковий ефект. Температура її поверхні досягає +475°C, що достатньо, щоб плавити свинець. Венера має густу атмосферу, багату на вуглекислий газ, і обертається в напрямку, протилежному іншим планетам. Один день на Венері триває довше, ніж її рік, через повільне обертання навколо своєї осі.</p>
+            </div>
+            <img src="venus.jpg.png" alt="Зображення Венери">
+        </div>
+
+        <div class="planet-section" id="earth">
+            <div>
+                <h3>Земля</h3>
+                <p>Земля — третя планета від Сонця і єдина, на якій підтверджено існування життя. Її атмосфера, багата на кисень, захищає нас від небезпечного космічного випромінювання. Завдяки наявності води у трьох агрегатних станах (рідкому, твердому та газоподібному), Земля має різноманітні кліматичні зони і біорізноманіття. Земля має один природний супутник — Місяць, який впливає на припливи і відпливи океанів.</p>
+            </div>
+            <img src="earth.jpg.png" alt="Зображення Землі">
+        </div>
+
+        <div class="planet-section" id="mars">
+            <div>
+                <h3>Марс</h3>
+                <p>Марс — відомий як "червона планета" завдяки оксидам заліза на поверхні, які надають йому червонуватий колір. На ньому розташований найбільший вулкан Сонячної системи — Олімп, висотою 22 км. Марс має слабку атмосферу, яка складається в основному з вуглекислого газу, і регулярно зазнає піщаних бурь. Космічні місії активно досліджують Марс, адже вважається, що в минулому на ньому була вода.</p>
+            </div>
+            <img src="mars.jpg.png" alt="Зображення Марса">
+        </div>
+
+        <div class="planet-section" id="jupiter">
+            <div>
+                <h3>Юпітер</h3>
+                <p>Юпітер — найбільша планета Сонячної системи і відомий своїм великим червоним штормом, який триває понад 300 років. В атмосфері Юпітера домінують водень і гелій, що робить його схожим на Сонце. Він має понад 75 супутників, серед яких найбільший — Ганімед, який навіть більший за Меркурій. Його кільця менш яскраві, ніж у Сатурна, але також складаються з частинок пилу.</p>
+            </div>
+            <img src="jupiter.jpg.png" alt="Зображення Юпітера">
+        </div>
+
+        <div class="planet-section" id="saturn">
+            <div>
+                <h3>Сатурн</h3>
+                <p>Сатурн славиться своїми красивими кільцями, що складаються з льоду, каміння та пилу. Це газовий гігант, подібний до Юпітера, і має понад 80 супутників. Найбільший з них, Титан, має власну атмосферу і озера рідкого метану, що робить його одним із найбільш унікальних об’єктів у Сонячній системі.</p>
+            </div>
+            <img src="saturn.jpg.png" alt="Зображення Сатурна">
+        </div>
+
+        <div class="planet-section" id="uranus">
+            <div>
+                <h3>Уран</h3>
+                <p>Уран — перша планета, відкрита за допомогою телескопа. Він обертається "лежачи на боці", тобто практично горизонтально, що робить його вісь обертання унікальною серед планет. Уран має зеленувато-блакитний колір через метан в атмосфері і температури до -224°C, що робить його найхолоднішою планетою Сонячної системи.</p>
+            </div>
+            <img src="uranus.jpg.png" alt="Зображення Урану">
+        </div>
+
+        <div class="planet-section" id="neptune">
+            <div>
+                <h3>Нептун</h3>
+                <p>Нептун — найвіддаленіша планета від Сонця, відома своїми потужними вітрами, що можуть досягати швидкості до 2 100 км/год. Його блакитний колір зумовлений наявністю метану в атмосфері. На Нептуні також є "велика темна пляма" — шторм, подібний до того, що на Юпітері. Серед супутників особливий інтерес викликає Тритон, який має власну атмосферу і активні крижані вулкани.</p>
+            </div>
+            <img src="neptune.jpg.png" alt="Зображення Нептуна">
+        </div>
+<!-- Новий розділ про планети за межами Сонячної системи -->
+<section id="exoplanets" style="text-align: center; padding: 3em 1em; background-color: #102a43;">
+    <h2 style="color: #f9a826;">Планети за межами Сонячної системи</h2>
+    <p style="color: #c9d6df; max-width: 800px; margin: auto; line-height: 1.6;">
+        Наш Всесвіт містить мільярди зір, і багато з них мають свої власні планетні системи. Планети, що обертаються навколо інших зір, називаються екзопланетами. 
+        Сучасні астрономічні дослідження дозволили виявити тисячі таких планет, і деякі з них можуть бути схожими на Землю та мати умови, придатні для життя.
+    </p>
+    <p style="color: #c9d6df; max-width: 800px; margin: auto; line-height: 1.6;">
+        Пошуки життєпридатних планет є одним із найцікавіших напрямків сучасної науки. Вчені використовують телескопи, такі як <b>Кеплер</b> та <b>Джеймс Вебб</b>, щоб знаходити планети у зоні придатності для життя — регіоні навколо зорі, де може існувати рідка вода. Хоча ми ще не знайшли підтвердження існування життя за межами Землі, відкриття нових планет дає надію на те, що ми не самі у цьому безмежному Всесвіті.
+    </p>
+</section>
+
+<!-- Розділ з відео-каруселлю -->
+<section id="video-carousel" style="text-align: center; margin: 3em 0;">
+    <h2 style="color: #f9a826;">Карусель із відео про планети</h2>
+    <div class="carousel-container" style="position: relative; max-width: 600px; margin: auto;">
+        <button class="carousel-btn prev" onclick="prevVideo()">&#10094;</button>
+        <div id="video-wrapper" style="overflow: hidden;">
+            <div class="videos" style="display: flex; transition: transform 0.5s ease;">
+                <!-- Відео 1 -->
+                <div style="min-width: 100%;">
+                    <iframe width="600" height="340" src="https://www.youtube.com/embed/xi28Zyq-F7M?si=zxQrLiD40XOk1y6b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- Відео 2 -->
+                <div style="min-width: 100%;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/IaQmrb21hdk?si=_sBrZkRj-N3TICPW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- Відео 3 -->
+                <div style="min-width: 100%;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E2Tpo_jU7JU?si=ZPoGjcJrX5pgP9qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-btn next" onclick="nextVideo()">&#10095;</button>
+    </div>
+</section>
+
+        
+
+<!-- Стилі для каруселі -->
+<style>
+    .carousel-container {
+        position: relative;
+    }
+    .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #415a77;
+        border: none;
+        color: #ffffff;
+        padding: 0.5em;
+        cursor: pointer;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    .carousel-btn.prev {
+        left: 0;
+    }
+    .carousel-btn.next {
+        right: 0;
+    }
+    .carousel-btn:hover {
+        background-color: #f9a826;
+    }
+    .videos {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+    </style>
+    
+
+<!-- JavaScript для каруселі -->
+<script>
+    let currentIndex = 0;
+    const videos = document.querySelector('.videos');
+    const totalVideos = videos.children.length;
+
+    function showVideo(index) {
+        // Додатковий захист від виходу за межі
+        if (index < 0) index = totalVideos - 1;
+        if (index >= totalVideos) index = 0;
+        currentIndex = index;
+        videos.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    function prevVideo() {
+        currentIndex = (currentIndex - 1 + totalVideos) % totalVideos;
+        showVideo(currentIndex);
+    }
+
+    function nextVideo() {
+        currentIndex = (currentIndex + 1) % totalVideos;
+        showVideo(currentIndex);
+    }
+</script>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Світ Астрономії. Всі права захищені.</p>
+    </footer>
+</body>
+</html>

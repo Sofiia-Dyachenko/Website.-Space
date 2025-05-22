@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЗОРІ - Світ Астрономії</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d1b2a;
+            color: #ffffff;
+        }
+        header {
+            text-align: center;
+            padding: 2em;
+            background-color: #1b263b;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #e0e1dd;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #415a77;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1em;
+        }
+        nav ul li a:hover {
+            background-color: #e0e1dd;
+            color: #1b263b;
+            border-radius: 5px;
+        }
+        main {
+            padding: 2em;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .star-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 3em 0;
+        }
+        .star-section img {
+            width: 100%;
+            max-width: 300px;
+            margin-left: 20px;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #f9a826;
+            text-align: center;
+        }
+        h3 {
+            color: #e0e1dd;
+        }
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #c9d6df;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #1b263b;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ЗОРІ</h1>
+        <p>Відкрийте для себе таємниці зоряного неба</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="planets.html">Планети</a></li>
+            <li><a href="galaxies.html">Галактики</a></li>
+            <li><a href="stars.html">Зорі</a></li>
+            <li><a href="quiz.html">Тест</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Що таке зорі?</h2>
+        <p>Зорі — це велетенські гарячі кулі газу, переважно водню та гелію, що світяться завдяки термоядерним реакціям у своїх ядрах. Вони відіграють ключову роль у формуванні галактик, планет і життя. Зорі можуть існувати мільярди років, але їхній життєвий цикл залежить від маси.</p>
+
+        <!-- Карликові зорі -->
+        <div class="star-section" id="dwarfs">
+            <div>
+                <h3>Карликові зорі</h3>
+                <p>Карликові зорі, зокрема червоні карлики, є найпоширенішими у Всесвіті. Вони менші за Сонце, але можуть жити до сотень мільярдів років завдяки повільнішому використанню водневого палива. Жовті карлики, такі як наше Сонце, є середньої маси та мають стабільний життєвий цикл тривалістю близько 10 мільярдів років. Після вичерпання палива жовті карлики перетворюються на червоних гігантів, а потім на білих карликів.</p>
+                <p>Завдяки стабільному випромінюванню, жовті карлики ідеально підходять для підтримки життя на планетах у їхній зоні, де можлива вода в рідкому стані.</p>
+            </div>
+            <img src="dwarf-stars.jpg" alt="Карликова зоря">
+        </div>
+
+        <!-- Гіганти та Надгіганти -->
+        <div class="star-section" id="giants">
+            <div>
+                <h3>Гіганти та Надгіганти</h3>
+                <p>Червоні гіганти та надгіганти є кінцевими стадіями еволюції масивних зір. Після того, як водень у ядрі зорі вичерпується, вони починають горіти гелієм та іншими елементами, збільшуючись у розмірах. Надгіганти, такі як Бетельгейзе, можуть бути в сотні разів більшими за Сонце і є яскравими, але короткоживучими.</p>
+                <p>Коли ці зорі вичерпують своє паливо, вони вибухають як наднові, залишаючи після себе нейтронні зорі або чорні діри.</p>
+            </div>
+            <img src="giant-star.jpeg" alt="Гігантська зоря">
+        </div>
+
+        <!-- Нейтронні зорі -->
+        <div class="star-section" id="neutron">
+            <div>
+                <h3>Нейтронні зорі</h3>
+                <p>Нейтронні зорі утворюються після вибуху масивної зорі як наднової. Вони надзвичайно щільні — маса зорі ущільнена до розмірів всього 10-20 км у діаметрі. Ці об'єкти мають дуже сильні магнітні поля і можуть обертатися зі швидкістю до кількох тисяч обертів на секунду.</p>
+                <p>Деякі нейтронні зорі випромінюють потужні промені радіації та відомі як пульсари, які можна спостерігати з Землі як періодичні спалахи.</p>
+            </div>
+            <img src="neutron-stars.jpg" alt="Нейтронна зоря">
+        </div>
+
+        <!-- Білі карлики -->
+        <div class="star-section" id="white-dwarfs">
+            <div>
+                <h3>Білі карлики</h3>
+                <p>Після того, як середньомасивна зоря, як наше Сонце, вичерпує своє паливо і скидає зовнішні шари, залишок перетворюється на білий карлик. Ці зорі є дуже щільними і поступово охолоджуються протягом мільярдів років. Вони вже не можуть підтримувати термоядерні реакції, але зберігають залишкове тепло.</p>
+                <p>З часом білі карлики стають тьмяними і можуть перетворитися на чорні карлики, однак у Всесвіті ще не існує таких об'єктів, оскільки вони потребують більше часу на охолодження, ніж існує наш Всесвіт.</p>
+            </div>
+            <img src="white-dwarfs.jpg" alt="Білий карлик">
+        </div>
+
+<!-- Спектральна класифікація зір -->
+<section style="margin-top: 3em; padding: 2em; background-color: #162A38;">
+    <h2 style="color: #f9a826; text-align: center;">Спектральна класифікація зір</h2>
+    <p style="color: #c9d6df; text-align: center; max-width: 800px; margin: auto;">
+        Спектральна класифікація поділяє зорі на класи в залежності від їх температури, кольору та спектральних ліній. Основні класи: <b>O, B, A, F, G, K, M</b>, що розташовані від найгарячіших до найхолодніших.
+    </p>
+    <img src="spectral_classe.png" alt="Спектральна класифікація" style="display: block; margin: 2em auto; width: 80%; max-width: 600px; border-radius: 10px;">
+    <ul style="max-width: 700px; margin: 2em auto; color: #ffffff;">
+        <li><b>O-клас:</b> Дуже гарячі, блакитні зорі з температурою понад 30,000°C.</li>
+        <li><b>B-клас:</b> Гарячі блакитні зорі (10,000-30,000°C).</li>
+        <li><b>A-клас:</b> Білі зорі середньої температури (7,500-10,000°C).</li>
+        <li><b>F-клас:</b> Жовтувато-білі зорі (6,000-7,500°C).</li>
+        <li><b>G-клас:</b> Жовті зорі, як наше Сонце (5,200-6,000°C).</li>
+        <li><b>K-клас:</b> Помаранчеві зорі (3,700-5,200°C).</li>
+        <li><b>M-клас:</b> Найхолодніші червоні карлики (нижче 3,700°C).</li>
+    </ul>
+</section>
+
+<!-- Діаграма Герцшпрунга — Рассела -->
+<section style="margin-top: 3em; padding: 2em; background-color: #162A38;">
+    <h2 style="color: #f9a826; text-align: center;">Діаграма Герцшпрунга — Рассела</h2>
+    <p style="color: #c9d6df; text-align: center; max-width: 800px; margin: auto;">
+        Діаграма Герцшпрунга — Рассела (H-R діаграма) ілюструє зв'язок між температурою зір та їх світністю. Це ключовий інструмент для дослідження еволюції зір.
+    </p>
+    <img src="hr-diagram.jpg" alt="Діаграма Герцшпрунга — Рассела" style="display: block; margin: 2em auto; width: 80%; max-width: 600px; border-radius: 10px;">
+    <p style="color: #c9d6df; text-align: center;">
+        Зорі на H-R діаграмі розташовуються у різних зонах:
+    </p>
+    <ul style="max-width: 700px; margin: 2em auto; color: #ffffff;">
+        <li><b>Головна послідовність:</b> Більшість зір, включаючи Сонце, перебувають тут на більшій частині свого життя.</li>
+        <li><b>Червоні гіганти:</b> Зорі на стадії розширення перед кінцем свого життєвого циклу.</li>
+        <li><b>Білі карлики:</b> Компактні залишки зір після вичерпання їхнього ядерного палива.</li>
+    </ul>
+</section>
+
+<!-- Класи світності -->
+<section style="margin-top: 3em; padding: 2em; background-color: #162A38;">
+    <h2 style="color: #f9a826; text-align: center;">Класи світності зір</h2>
+    <p style="color: #c9d6df; text-align: center; max-width: 800px; margin: auto;">
+        Окрім спектральної класифікації, зорі поділяються на класи світності від <b>I</b> до <b>V</b>, що відображає їх розмір та яскравість.
+    </p>
+    <ul style="max-width: 700px; margin: 2em auto; color: #ffffff;">
+        <li><b>I:</b> Надгіганти (дуже великі та яскраві зорі).</li>
+        <li><b>II:</b> Яскраві гіганти.</li>
+        <li><b>III:</b> Гіганти середньої світності.</li>
+        <li><b>IV:</b> Субгіганти (менш яскраві, ніж гіганти).</li>
+        <li><b>V:</b> Карлики (звичайні зорі головної послідовності, як наше Сонце).</li>
+    </ul>
+    <p style="color: #c9d6df; text-align: center;">
+        Поєднуючи спектральний клас і клас світності, астрономи можуть точно визначати властивості зір та їх еволюційний етап.
+    </p>
+</section>
+
+
+
+        <!-- Еволюція зір -->
+        <section style="text-align: center; padding: 3em 1em; background-color: #102a43;">
+            <h2 style="color: #f9a826;">Еволюція зір</h2>
+            <p style="color: #c9d6df; max-width: 800px; margin: auto;">
+                Зорі проходять через декілька стадій розвитку: від народження у зоряних хмарах до зрілої фази, а потім до своєї смерті. В залежності від маси, зорі можуть закінчити своє життя як білі карлики, нейтронні зорі або чорні діри. Сучасні телескопи дозволяють вченим вивчати ці процеси в реальному часі.
+            </p>
+        </section>
+        <!-- Розділ з відео-каруселлю -->
+<section id="video-carousel" style="text-align: center; margin: 3em 0;">
+    <h2 style="color: #f9a826;">Карусель із відео про еволюцію зір</h2>
+    <div class="carousel-container" style="position: relative; max-width: 600px; margin: auto;">
+        <button class="carousel-btn prev" onclick="prevVideo()">&#10094;</button>
+        <div id="video-wrapper" style="overflow: hidden;">
+            <div class="videos" style="display: flex; transition: transform 0.5s ease;">
+                <!-- Відео 1 -->
+                <div style="min-width: 100%;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/emShyzxqL7I?si=DMDDW3QgD2OA-k66" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- Відео 2 -->
+                <div style="min-width: 100%;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/x1IxT9cR90c?si=z-6QiTAAprpSKZ-T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- Відео 3 -->
+                <div style="min-width: 100%;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3bm_a-LfZrI?si=M7jQSL1IxM2uYlrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-btn next" onclick="nextVideo()">&#10095;</button>
+    </div>
+</section>
+
+        
+
+<!-- Стилі для каруселі -->
+<style>
+    .carousel-container {
+        position: relative;
+    }
+    .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #415a77;
+        border: none;
+        color: #ffffff;
+        padding: 0.5em;
+        cursor: pointer;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    .carousel-btn.prev {
+        left: 0;
+    }
+    .carousel-btn.next {
+        right: 0;
+    }
+    .carousel-btn:hover {
+        background-color: #f9a826;
+    }
+    .videos {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+    </style>
+    
+
+<!-- JavaScript для каруселі -->
+<script>
+    let currentIndex = 0;
+    const videos = document.querySelector('.videos');
+    const totalVideos = videos.children.length;
+
+    function showVideo(index) {
+        // Додатковий захист від виходу за межі
+        if (index < 0) index = totalVideos - 1;
+        if (index >= totalVideos) index = 0;
+        currentIndex = index;
+        videos.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    function prevVideo() {
+        currentIndex = (currentIndex - 1 + totalVideos) % totalVideos;
+        showVideo(currentIndex);
+    }
+
+    function nextVideo() {
+        currentIndex = (currentIndex + 1) % totalVideos;
+        showVideo(currentIndex);
+    }
+</script>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Світ Астрономії. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
+
+
+

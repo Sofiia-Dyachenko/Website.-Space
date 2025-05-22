@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ГАЛАКТИКИ - Світ Астрономії</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d1b2a;
+            color: #ffffff;
+        }
+        header {
+            text-align: center;
+            padding: 2em;
+            background-color: #1b263b;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #e0e1dd;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #415a77;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1em;
+        }
+        nav ul li a:hover {
+            background-color: #e0e1dd;
+            color: #1b263b;
+            border-radius: 5px;
+        }
+        main {
+            padding: 2em;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .galaxy-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 3em 0;
+            text-align: left;
+        }
+        .galaxy-section img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            color: #f9a826;
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        h3 {
+            color: #e0e1dd;
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #c9d6df;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #1b263b;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ГАЛАКТИКИ</h1>
+        <p>Досліджуйте безмежні простори нашого Всесвіту</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="planets.html">Планети</a></li>
+            <li><a href="galaxies.html">Галактики</a></li>
+            <li><a href="stars.html">Зорі</a></li>
+            <li><a href="quiz.html">Тест</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Що таке галактики?</h2>
+        <p>Галактики — це масивні системи, що складаються з зір, газу, пилу та темної матерії. Вони пов’язані гравітаційним тяжінням та можуть містити від кількох мільйонів до трильйонів зір. Вчені досліджують галактики, щоб краще зрозуміти, як утворюється Всесвіт.</p>
+
+        <!-- Спіральні галактики -->
+        <div class="galaxy-section" id="spiral">
+            <div>
+                <h3>Спіральні галактики</h3>
+                <p>Спіральні галактики мають чітко виражені рукави, що обертаються навколо центрального ядра. Вони містять багато молодих гарячих зір, розташованих у рукавах, та старіші зорі в ядрі. Молочний Шлях є прикладом спіральної галактики.</p>
+                <p>Ці галактики часто є активними зонами зореутворення через наявність великої кількості газу та пилу.</p>
+            </div>
+            <img src="spiral galaxies.jpg" alt="Спіральна галактика">
+        </div>
+
+        <!-- Еліптичні галактики -->
+        <div class="galaxy-section" id="elliptical">
+            <div>
+                <h3>Еліптичні галактики</h3>
+                <p>Еліптичні галактики мають овальну форму та не мають чіткої внутрішньої структури. Вони складаються в основному з старих зір та мають низький вміст газу та пилу. Такі галактики зазвичай не утворюють нових зір.</p>
+                <p>Еліптичні галактики часто зустрічаються в ядрах галактичних скупчень і можуть утворюватися внаслідок злиття менших галактик.</p>
+            </div>
+            <img src="elliptical galaxies.jpg" alt="Еліптична галактика">
+        </div>
+
+        <!-- Лінзоподібні галактики -->
+        <div class="galaxy-section" id="lenticular">
+            <div>
+                <h3>Лінзоподібні галактики</h3>
+                <p>Лінзоподібні галактики поєднують характеристики як спіральних, так і еліптичних галактик. Вони мають центральне опукле ядро, оточене диском, але без виражених спіральних рукавів. В таких галактиках зореутворення майже не відбувається через низький вміст газу.</p>
+                <p>Ці галактики часто є проміжним етапом між спіральними та еліптичними, і можуть виникати внаслідок взаємодій з іншими галактиками.</p>
+            </div>
+            <img src="lenticular galaxies.jpg" alt="Лінзоподібна галактика">
+        </div>
+
+        <!-- Неправильні галактики -->
+        <div class="galaxy-section" id="irregular">
+            <div>
+                <h3>Неправильні галактики</h3>
+                <p>Неправильні галактики не мають чіткої форми і часто утворюються внаслідок гравітаційних взаємодій з іншими галактиками. Вони містять як молоді, так і старі зорі, а також значну кількість газу і пилу, що сприяє активному зореутворенню.</p>
+                <p>Неправильні галактики можуть бути залишками злиттів або взаємодій інших галактик.</p>
+            </div>
+            <img src="irregular galaxies.jpg" alt="Неправильна галактика">
+        </div>
+
+        <!-- Розділ про дослідження галактик -->
+        <section id="galaxy-exploration" style="text-align: center; padding: 3em 1em; background-color: #102a43;">
+            <h2 style="color: #f9a826;">Дослідження далеких галактик</h2>
+            <p style="color: #c9d6df; max-width: 800px; margin: auto; line-height: 1.6;">
+                Сучасні телескопи, такі як <b>Габбл</b> та <b>Джеймс Вебб</b>, дозволяють вченим заглянути у найвіддаленіші куточки Всесвіту та вивчати галактики, що сформувалися незабаром після Великого вибуху. Завдяки цим спостереженням ми можемо краще зрозуміти, як еволюціонують галактики та утворюються нові зорі.
+            </p>
+        </section>
+    </main>
+    
+<!-- Розділ з відео-каруселлю -->
+<section id="video-carousel" style="text-align: center; margin: 3em 0;">
+    <h2 style="color: #f9a826;">Карусель із відео про галактики</h2>
+    <div class="carousel-container" style="position: relative; max-width: 600px; margin: auto;">
+        <button class="carousel-btn prev" onclick="prevVideo()">&#10094;</button>
+        <div id="video-wrapper" style="overflow: hidden;">
+            <div class="videos" style="display: flex; transition: transform 0.5s ease;">
+                <!-- Відео 1 -->
+                <div style="min-width: 100%;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_ZeDp0UR2HE?si=Y0na6LZOwG_e-laT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- Відео 2 -->
+                <div style="min-width: 100%;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FNP80lqWv6U?si=Tfc-fFSxwZxe1Qs_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- Відео 3 -->
+                <div style="min-width: 100%;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NeH5da4elf0?si=b-ij0egWk2g8dTTL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-btn next" onclick="nextVideo()">&#10095;</button>
+    </div>
+</section>
+
+        
+
+<!-- Стилі для каруселі -->
+<style>
+    .carousel-container {
+        position: relative;
+    }
+    .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #415a77;
+        border: none;
+        color: #ffffff;
+        padding: 0.5em;
+        cursor: pointer;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    .carousel-btn.prev {
+        left: 0;
+    }
+    .carousel-btn.next {
+        right: 0;
+    }
+    .carousel-btn:hover {
+        background-color: #f9a826;
+    }
+    .videos {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+    </style>
+    
+
+<!-- JavaScript для каруселі -->
+<script>
+    let currentIndex = 0;
+    const videos = document.querySelector('.videos');
+    const totalVideos = videos.children.length;
+
+    function showVideo(index) {
+        // Додатковий захист від виходу за межі
+        if (index < 0) index = totalVideos - 1;
+        if (index >= totalVideos) index = 0;
+        currentIndex = index;
+        videos.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    function prevVideo() {
+        currentIndex = (currentIndex - 1 + totalVideos) % totalVideos;
+        showVideo(currentIndex);
+    }
+
+    function nextVideo() {
+        currentIndex = (currentIndex + 1) % totalVideos;
+        showVideo(currentIndex);
+    }
+</script>
+
+</body>
+</html>
+    </body>
+    </html>
+    
+
+    <footer>
+        <p>&copy; 2024 Світ Астрономії. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
+
+
